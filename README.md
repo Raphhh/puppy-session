@@ -11,3 +11,22 @@
 Session module for Puppy framework.
 
 See [Puppy framework](https://github.com/Raphhh/puppy) for more information.
+
+
+## Installation
+
+```
+$ composer require raphhh/puppy-session
+```
+
+## Documentation
+
+Service for Symfony\Component\HttpFoundation\Session\Session.
+
+See [Symfony session documentation](http://symfony.com/doc/current/book/controller.html#index-10) for more information.
+
+## Config options
+
+ - 'session.sessionStorageClass' => name of the class to handle the session storage.
+ - 'session.attributeBagClass' => name of the class to handle the attributes session.
+ - 'session.flashBagClass' => name of the class to handle the flash session.
