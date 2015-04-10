@@ -1,0 +1,27 @@
+{
+    "name": "raphhh/puppy-session",
+    "description": "session module for Puppy framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raphaël Lefebvre",
+            "email": "raphael@raphaellefebvre.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Puppy\\Session\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "symfony/http-foundation": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
+}
